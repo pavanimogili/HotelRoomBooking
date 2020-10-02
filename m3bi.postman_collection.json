@@ -1,0 +1,351 @@
+{
+	"variables": [],
+	"info": {
+		"name": "m3bi",
+		"_postman_id": "9ad82d30-536c-1f80-7765-23aaba828e73",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/user/listAll",
+			"request": {
+				"url": "http://localhost:8080/user/listAll",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/user/save",
+			"request": {
+				"url": "http://localhost:8080/user/save",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/user/1",
+			"request": {
+				"url": "http://localhost:8080/user/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"pani\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/user/update",
+			"request": {
+				"url": "http://localhost:8080/user/update",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"3\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 3000\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/room/listAll",
+			"request": {
+				"url": "http://localhost:8080/room/listAll",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/room/id/1",
+			"request": {
+				"url": "http://localhost:8080/room/id/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/room/name/r2",
+			"request": {
+				"url": "http://localhost:8080/room/name/r2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/room/save",
+			"request": {
+				"url": "http://localhost:8080/room/save",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"roomId\": \"\",\n    \"roomType\": \"r3\",\n    \"roomCost\": 5000\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/hotel/id/1",
+			"request": {
+				"url": "http://localhost:8080/hotel/id/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/hotel/listAll",
+			"request": {
+				"url": "http://localhost:8080/hotel/listAll",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/hotel/save",
+			"request": {
+				"url": "http://localhost:8080/hotel/save",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"hotelId\": \"\",\n    \"hotelName\": \"swagath\",\n    \"areaName\": \"bangalore\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Hotelroom/listAll",
+			"request": {
+				"url": "http://localhost:8080/Hotelroom/listAll",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Hotelroom/hotelId/1",
+			"request": {
+				"url": "http://localhost:8080/Hotelroom/hotelId/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Hotelroom/listAll",
+			"request": {
+				"url": "http://localhost:8080/Hotelroom/listAll",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Hotelroom/roomId/2",
+			"request": {
+				"url": "http://localhost:8080/Hotelroom/roomId/2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"\" ,\n    \"userName\": \"chinnu\",\n    \"bonusPoints\": 500\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Hotelroom/save",
+			"request": {
+				"url": "http://localhost:8080/Hotelroom/save",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"id\": \"\",\n        \"hotelId\": 3,\n        \"roomTypeId\": 4\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/booking/save",
+			"request": {
+				"url": "http://localhost:8080/booking/save",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"hotelName\": \"novatel\",\r\n        \"roomType\": \"r2\",\r\n        \"userName\": \"chinnu\",\r\n        \"bookingDate\": \"2020-12-28T18:30:00.000+00:00\"\r\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
